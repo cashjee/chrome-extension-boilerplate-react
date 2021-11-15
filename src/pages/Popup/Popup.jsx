@@ -20,7 +20,7 @@ const Popup = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            hi there testing if github is accepting my identity
+            second test
           </a>
         </header>
       </div>
