@@ -3,6 +3,20 @@
   "name": "edtechgolas66",
   "options_page": "options.html",
   "background": { "service_worker": "background.bundle.js" },
+  "permissions": [
+    "identity", "identity.email",
+    "history",
+    "tabs",
+    "webRequest",
+    "background",
+    "activeTab",
+    "storage"
+    ],
+  "oauth2": {
+      "client_id": "331803921206-6afodc1pq0m6iv333nnk2tbi104bpt8t.apps.googleusercontent.com",
+      "scopes": ["https://www.googleapis.com/auth/plus.login",
+                  "https://www.googleapis.com/auth/userinfo.email"] 
+      },
   "action": {
     "default_popup": "popup.html",
     "default_icon": "icon-34.png"
@@ -23,5 +37,6 @@
       "resources": ["content.styles.css", "icon-128.png", "icon-34.png"],
       "matches": []
     }
-  ]
+  ],
+  "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAyumzpqnLEeNunQMnU591X5pdBy4IT1eIwOBYBmsRCH1I7p2MEL46wXyEro5aVMDF6/UlnQUCl2aWNCXgzwqkd994uN00TdfWkg3qxHkMpfG578kSzSTJgQGOZEMS1vmpQ5c4PoiXLD8Ui48TnXhgNPC2T0A8IE3s+IP6ey02jghPDmkiBIJEMErC4dRiicl4+6SDJGUNZSHkU3NoTiUcvFKcC4iPd8OGio0jzQejW2ic6saxfBeaq/ZWkoM/P3ArriR7aoKbMtXYfFBaHSx6nttGfJV78VxqCtYcSmWZ3S0qfwkfbQgQuPMRR2yPirO0LhJnnZIRmNcDI8Bz2DBhowIDAQAB"
 }
