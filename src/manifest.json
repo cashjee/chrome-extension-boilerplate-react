@@ -10,7 +10,8 @@
     "webRequest",
     "background",
     "activeTab",
-    "storage"
+    "storage",
+    "idle"
     ],
   "oauth2": {
       "client_id": "331803921206-6afodc1pq0m6iv333nnk2tbi104bpt8t.apps.googleusercontent.com",
